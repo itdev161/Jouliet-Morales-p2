@@ -1,0 +1,30 @@
+.postListItem {
+    padding: 50px;
+    border: solid 1px transparent;
+   
+}
+
+.postListItem:hover {
+    background-color: #eeeeee;
+    border-color: #aaaaaa;
+    cursor: pointer;
+    
+}
+
+.postListItem p {
+    max-width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   
+    
+}
+
+.postControls {
+    margin: 10px 0 10px 0;
+}
+
+.postControls button {
+    margin-left: 20px;
+}
+
